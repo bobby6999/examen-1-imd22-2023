@@ -25,6 +25,7 @@ body {
   text-rendering: optimizeLegibility;
   width: 428px;
   height: 3236px;
+  background: #f4ede8;
 }
 
 a {
@@ -44,6 +45,7 @@ header {
   flex-shrink: 0;
   background: #d7a1fd;
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -51,18 +53,19 @@ h1 {
   font-weight: 800;
   text-transform: uppercase;
   color: black;
+  font-style: 50px;
+  line-height: 50px; /* 100% */
+  margin: 20px;
+}
+
+.date {
+  font-size: 20px;
 }
 
 .thin {
   font-family: "Noto Serif", serif;
   font-weight: 300;
-}
-
-p {
-  font-family: "Noto Serif", serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 15px;
+  font-style: normal;
 }
 
 nav {
@@ -70,12 +73,18 @@ nav {
   color: white;
   text-transform: uppercase;
   font-family: "Noto Serif", serif;
+  padding: 20px 41px 20px 41px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h2 {
   text-transform: uppercase;
   font-family: "Noto Serif", serif;
   font-weight: 300;
+  font-size: 50px;
+  padding: 60px 20px 30px 20px;
+  text-align: center;
 }
 
 .whatson {
@@ -83,6 +92,18 @@ h2 {
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
   border-top: 7px solid #d7a1fd;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0 30px 0;
+}
+
+img {
+  margin: 0 20px 0 20px;
 }
 
 h3 {
@@ -91,7 +112,119 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   font-size: 30px;
+  padding-bottom: 25px;
 }
 
 .button-1 {
+  background: #000;
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 30px 97px 60px 97px;
+  padding: 20px 30px;
+}
+
+.button-3 {
+  background: #98fb00;
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 20px 55px 20px;
+}
+
+.button-4 {
+  background: #98fb00;
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 28px; /* 93.333% */
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.button-2 {
+  background: #d7a1fd;
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+  margin: 60px 0 20px 0;
+  padding: 20px;
+}
+
+.whatsnew {
+  border-radius: 20px;
+  background: #fff;
+  text-align: justify;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.whatsnew > img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background: #f4ede8;
+}
+
+.whatsnew > p {
+  padding: 20px;
+}
+
+.bold {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px; /* 146.667% */
+  text-transform: uppercase;
+}
+
+footer {
+  width: 428px;
+  height: 238px;
+  flex-shrink: 0;
+  background: #000;
+  color: #fff;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+}
+
+.footer {
+  color: #313131;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px; /* 100% */
+}
+
+.bold-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px; /* 122.222% */
+  text-transform: uppercase;
 }
