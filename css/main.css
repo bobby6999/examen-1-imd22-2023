@@ -23,6 +23,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 428px;
+  height: 3236px;
 }
 
 a {
@@ -34,4 +36,62 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+header {
+  width: 428px;
+  height: 148px;
+  flex-shrink: 0;
+  background: #d7a1fd;
+  color: white;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+}
+
+.thin {
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 15px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+}
+
+.whatson {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top: 7px solid #d7a1fd;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+.button-1 {
 }
